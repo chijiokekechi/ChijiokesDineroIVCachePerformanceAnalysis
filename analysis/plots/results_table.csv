@@ -1,0 +1,7 @@
+WorkloadShort,Workload,Line Size (bytes),L1 Miss Rate,L1 Miss Rate (%),L2 Miss Rate,L2 Miss Rate (%),AMAT (cycles)
+sequential,Sequential Scan (High Spatial),32,0.125,12.5,1.0,100.0,14.75
+sequential,Sequential Scan (High Spatial),128,0.0312,3.1199999999999997,1.0,100.0,4.432
+strided,Strided Access (Medium Spatial),32,1.0,100.0,1.0,100.0,111.0
+strided,Strided Access (Medium Spatial),128,1.0,100.0,1.0,100.0,111.0
+random,Random Access (Low Locality),32,0.927,92.7,0.4618,46.18,53.07886
+random,Random Access (Low Locality),128,0.9206,92.06,0.3962,39.62,46.680172
